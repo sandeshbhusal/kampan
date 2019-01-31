@@ -1,0 +1,47 @@
+{
+  "levels": [
+    {
+      "beforeEarthquake":{
+        "image":"house.jpg",
+        "string":"BHUKAMPA AGHI",
+        "scenes": [
+          {
+            "string":"Inside Home",
+            "image":"house.jpg",
+            "levelID":"10"
+          }
+        ]
+      }
+    },
+    {
+      "duringEarthquake":{
+        "image":"whilegoing.jpeg",
+        "string":"BHUKAMPA JADA",
+        "scenes": [
+        ]
+      }
+    },
+    {
+      "afterEarthquake":{
+        "image":"aftereq.jpg",
+        "string":"AFTER EARTHQUAKE",
+        "scenes": [
+
+        ]
+      }
+    }
+  ],
+  "questions":[
+    {
+      "ID":"10",
+      "question:":"What should you do in the event of an earthquake?",
+      "options":[
+        "Run",
+        "Jump",
+        "Get inside a bed",
+        "Stand below a pillar"
+      ],
+      "accompanyingVideo":"video.mp4"
+    }
+  ]
+}

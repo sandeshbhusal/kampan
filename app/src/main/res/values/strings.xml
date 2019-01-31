@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Bhukampa</string>
+
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_game">gameActivity</string>
+
+    <string name="title_activity_main">main</string>
+
+    <string name="title_activity_main_level_selector">mainLevelSelector</string>
+
+    <string name="title_activity_presceneselector">presceneselector</string>
+
+    <string name="title_activity_question_inside_home">question_insideHome</string>
+
+    <string name="title_activity_rightanswer">rightanswer</string>
+
+    <string name="title_activity_wronganswer">wronganswer</string>
+
+    <string name="title_activity_question_jhatpatjhola">question_jhatpatjhola</string>
+
+    <string name="title_activity_jhatpatjholaorplacement">jhatpatjholaorplacement</string>
+</resources>

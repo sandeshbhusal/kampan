@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "200318188388",
+    "firebase_url": "https://kampantest.firebaseio.com",
+    "project_id": "kampantest",
+    "storage_bucket": "kampantest.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200318188388:android:fde7ebd4d7d67e40",
+        "android_client_info": {
+          "package_name": "com.example.bhukampa"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200318188388-i3r50jde6okdi04bo9r7inuguua4jtfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1rhygLPiOo_PMxq1EMEMh3n4MI1GRb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:200318188388:android:f55b16a82e9c8ad5",
+        "android_client_info": {
+          "package_name": "com.sherperk.kampantest"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "200318188388-i3r50jde6okdi04bo9r7inuguua4jtfn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAM1rhygLPiOo_PMxq1EMEMh3n4MI1GRb4"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/parentBackground"
+    android:orientation="vertical"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/gharbhitra_background"
+    tools:context=".rightanswer">
+
+    <FrameLayout
+        android:scaleY="0"
+        android:scaleX="0"
+        android:id="@+id/rightanswermedalcontainer"
+        android:paddingTop="50dp"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/medalImage"
+            android:layout_width="160dp"
+            android:layout_height="140dp"
+            android:layout_gravity="center"
+            android:background="@drawable/sadreact"/>
+    </FrameLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <TextView
+            android:alpha="0"
+            android:id="@+id/sahiuttartextcontainer"
+            android:padding="20dp"
+            android:textSize="20dp"
+            android:textAlignment="center"
+            android:layout_gravity="center"
+            android:layout_width="fill_parent"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content"
+            android:text="गलत जवाफ!"/>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/arkobutton"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:background="@drawable/rectangle"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:paddingBottom="5dp"
+            android:textColor="#ffffff"
+            android:layout_height="40dp"
+            android:text="अर्को तह"/>
+
+        <Button
+            android:layout_margin="10dp"
+            android:id="@+id/pheributton"
+            android:scaleX="1"
+            android:scaleY="1"
+            android:background="@drawable/rectangle"
+            android:layout_gravity="center"
+            android:layout_width="120dp"
+            android:paddingBottom="5dp"
+            android:textColor="#ffffff"
+            android:layout_height="40dp"
+            android:text="फेरी कोसिस गर्नुहोस "/>
+    </LinearLayout>
+</LinearLayout>

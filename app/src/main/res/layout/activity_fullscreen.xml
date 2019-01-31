@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:scaleType="fitXY"
+    tools:context=".FullscreenActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        >
+
+        <ImageView
+            android:id="@+id/title"
+            android:scaleX="0"
+            android:scaleY="0"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/kampan"
+            android:scaleType="fitXY"
+            android:layout_marginTop="40dp"/>
+        <LinearLayout
+            android:paddingTop="20dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="match_parent"
+            android:gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <Button
+                android:alpha="0"
+                android:id="@+id/newgameButton"
+                android:layout_margin="10dp"
+                android:layout_marginTop="80dp"
+                android:textColor="#ffffff"
+                android:textSize="20dp"
+                android:fontFamily="@font/gamergirl"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:paddingBottom="5dp"
+                android:background="@drawable/rectangle"
+                android:text="नयाँ खेल"/>
+
+            <Button
+                android:alpha="0"
+                android:id="@+id/profileButton"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:paddingBottom="5dp"
+                android:fontFamily="@font/gamergirl"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangle"
+                android:text="मेरो विवरण"/>
+
+            <Button
+                android:id="@+id/continuegameButton"
+                android:alpha="0"
+                android:fontFamily="@font/gamergirl"
+                android:textSize="20dp"
+                android:layout_margin="10dp"
+                android:textColor="#ffffff"
+                android:paddingBottom="5dp"
+                android:layout_width="180dp"
+                android:layout_height="50dp"
+                android:background="@drawable/rectangle"
+                android:text="आकस्मिक सेवा"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>

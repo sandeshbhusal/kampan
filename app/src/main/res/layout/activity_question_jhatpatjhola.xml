@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- This file contains the information for asking question related to "inside home" scenario. -->
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/jholakoquestionlai"
+    tools:context=".presceneselector">
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <LinearLayout
+            android:layout_gravity="center"
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <LinearLayout
+                android:padding="16dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_margin="20dp"
+                    android:layout_marginTop="40dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="झटपट झोला मा यिम्ध्य कुन समान राख्नु पर्छ ?"
+                    android:textAlignment="center"
+                    android:textColor="#ffffff"
+                    android:textSize="40dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_gravity="center"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <!-- Buttons container for the correct answer. -->
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></LinearLayout>
+
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:background="#ffffff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:scaleY="0"
+                            android:scaleX="0"
+                            android:id="@+id/wronganswer2"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:background="#FF5722"
+                            android:textColor="#470D0D"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="फूटबल "/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"></LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:background="#ffffff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:scaleY="0"
+                            android:scaleX="0"
+                            android:id="@+id/correctAnswer"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:background="#FF5722"
+                            android:textColor="#470D0D"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="टर्च लाईट "/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="0.5"></LinearLayout>
+                <LinearLayout
+                    android:layout_gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="5dp">
+                    <LinearLayout
+                        android:padding="10dp"
+                        android:background="#ffffff"
+                        android:layout_gravity="center"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+                        <Button
+                            android:scaleY="0"
+                            android:scaleX="0"
+                            android:id="@+id/wronganswer1"
+                            android:layout_gravity="center"
+                            android:padding="10dp"
+                            android:background="#FF5722"
+                            android:textColor="#470D0D"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="कुचो"/>
+
+                    </LinearLayout>
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"></LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
